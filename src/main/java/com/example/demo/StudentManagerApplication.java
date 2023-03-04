@@ -9,6 +9,5 @@ public class StudentManagerApplication extends SpringBootServletInitializer {
 
     public static void main(String[] args) {
         SpringApplication.run(StudentManagerApplication.class, args);
-
     }
 }

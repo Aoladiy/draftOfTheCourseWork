@@ -42,7 +42,7 @@ public class AppController {
     public ModelAndView showEditStudentForm(@PathVariable(name = "id") Long id) {
         ModelAndView mav = new ModelAndView("edit_student");
         Student student = service.get(id);
-        mav.addObject("Student", student);
+        mav.addObject("student", student);
         return mav;
     }
 
